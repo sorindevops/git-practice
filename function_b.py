@@ -7,7 +7,8 @@ def silly_sum():
         the user enters 0, or
         the sum reaches or exceeds 1000
     """
-    return 0
+    return None
+# made a change to create a merge conflice and made this return None
 
 
 if __name__ == "__main__":

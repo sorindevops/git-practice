@@ -7,8 +7,12 @@ def silly_sum():
         the user enters 0, or
         the sum reaches or exceeds 1000
     """
-    pass
-
+    input_int = int(input("What number would you like to start from? "))
+    sum = 0
+    while sum < 100:
+        sum += input_int
+        # print(sum)
+    print(sum)
 
 if __name__ == "__main__":
     print(f"Answer = {silly_sum()}")

@@ -3,7 +3,9 @@ def most_common_value(number_list):
     """
     # Hi Diana I completed function A! 
     # Woohoo! 
-    
+
+    # It's Friday! And GitHub is frying my brain! Woot!
+
     frequency_index = {}
     max_frequency = -1
     most_common_value = None
